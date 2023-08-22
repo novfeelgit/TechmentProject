@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T19:18:34 IST" name="Default suite" finished-at="2023-08-22T19:20:22 IST" duration-ms="108584">
+    <groups>
+    </groups>
+    <test started-at="2023-08-22T19:18:34 IST" name="Default test" finished-at="2023-08-22T19:20:22 IST" duration-ms="108584">
+      <class name="com.test.LoginTestOne">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:18:33 IST" name="beforeSuite" finished-at="2023-08-22T19:18:34 IST" duration-ms="701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:18:34 IST" name="beforeTest" finished-at="2023-08-22T19:18:34 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:18:34 IST" name="setup" finished-at="2023-08-22T19:19:01 IST" duration-ms="26984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userOne()[pri:-2, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:01 IST" name="userOne" finished-at="2023-08-22T19:19:05 IST" duration-ms="3714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userOne -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:05 IST" name="teardown" finished-at="2023-08-22T19:19:06 IST" duration-ms="1659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userOne status=SUCCESS method=LoginTestOne.userOne()[pri:-2, instance:com.test.LoginTestOne@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:06 IST" name="setup" finished-at="2023-08-22T19:19:24 IST" duration-ms="17684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userTwo()[pri:-1, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:24 IST" name="userTwo" finished-at="2023-08-22T19:19:26 IST" duration-ms="1851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userTwo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:26 IST" name="teardown" finished-at="2023-08-22T19:19:27 IST" duration-ms="1025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userTwo status=SUCCESS method=LoginTestOne.userTwo()[pri:-1, instance:com.test.LoginTestOne@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:27 IST" name="setup" finished-at="2023-08-22T19:19:40 IST" duration-ms="13407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userThree()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:40 IST" name="userThree" finished-at="2023-08-22T19:19:42 IST" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userThree -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:42 IST" name="teardown" finished-at="2023-08-22T19:19:44 IST" duration-ms="1910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userThree status=SUCCESS method=LoginTestOne.userThree()[pri:0, instance:com.test.LoginTestOne@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:44 IST" name="setup" finished-at="2023-08-22T19:19:59 IST" duration-ms="15609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userFour()[pri:1, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:19:59 IST" name="userFour" finished-at="2023-08-22T19:20:01 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFour -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:20:01 IST" name="teardown" finished-at="2023-08-22T19:20:02 IST" duration-ms="1182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFour status=SUCCESS method=LoginTestOne.userFour()[pri:1, instance:com.test.LoginTestOne@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:20:02 IST" name="setup" finished-at="2023-08-22T19:20:18 IST" duration-ms="15826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userFive()[pri:2, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:20:18 IST" name="userFive" finished-at="2023-08-22T19:20:20 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFive -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:20:20 IST" name="teardown" finished-at="2023-08-22T19:20:22 IST" duration-ms="1114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFive status=SUCCESS method=LoginTestOne.userFive()[pri:2, instance:com.test.LoginTestOne@4f32a3ad] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.test.LoginTestOne@4f32a3ad]" started-at="2023-08-22T19:20:22 IST" name="afterTest" finished-at="2023-08-22T19:20:22 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.LoginTestOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
